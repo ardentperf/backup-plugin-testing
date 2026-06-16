@@ -1,0 +1,8 @@
+run_mode: full
+started: 2026-06-04T01:49:26Z
+cluster: cnpg12
+region: us-west-2
+node: ip-192-168-45-226.us-west-2.compute.internal
+instance_type: c6id.32xlarge
+buckets: barman=cnpg12-barman opera=cnpg12-opera dalibo=cnpg12-dalibo
+kubeconfig: ./cnpg12-kubeconfig.yaml

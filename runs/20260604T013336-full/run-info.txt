@@ -1,0 +1,8 @@
+run_mode: full
+started: 2026-06-04T01:33:38Z
+cluster: cnpg11
+region: us-east-1
+node: ip-192-168-58-166.ec2.internal
+instance_type: c6id.32xlarge
+buckets: barman=cnpg11-barman opera=cnpg11-opera dalibo=cnpg11-dalibo
+kubeconfig: ./cnpg11-kubeconfig.yaml

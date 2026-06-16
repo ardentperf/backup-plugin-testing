@@ -1,0 +1,30 @@
+pgbench (18.1 (Debian 18.1-1.pgdg13+2))
+progress: 60.0 s, 10627.1 tps, lat 23.972 ms stddev 26.710, 0 failed
+progress: 120.0 s, 16839.0 tps, lat 15.209 ms stddev 19.000, 0 failed
+progress: 180.0 s, 22706.0 tps, lat 11.266 ms stddev 17.748, 0 failed
+progress: 240.0 s, 13932.9 tps, lat 18.380 ms stddev 25.044, 0 failed
+progress: 300.0 s, 17750.0 tps, lat 14.428 ms stddev 18.504, 0 failed
+progress: 360.0 s, 23626.9 tps, lat 10.835 ms stddev 17.004, 0 failed
+progress: 420.0 s, 15098.0 tps, lat 16.949 ms stddev 23.524, 0 failed
+progress: 480.0 s, 17795.9 tps, lat 14.391 ms stddev 18.429, 0 failed
+progress: 540.0 s, 23984.6 tps, lat 10.671 ms stddev 16.489, 0 failed
+progress: 600.0 s, 15072.1 tps, lat 16.978 ms stddev 23.521, 0 failed
+progress: 660.0 s, 18349.3 tps, lat 13.957 ms stddev 17.828, 0 failed
+progress: 720.0 s, 23762.4 tps, lat 10.766 ms stddev 16.164, 0 failed
+progress: 780.0 s, 15384.9 tps, lat 16.648 ms stddev 22.306, 0 failed
+progress: 840.0 s, 19698.6 tps, lat 12.999 ms stddev 17.029, 0 failed
+progress: 900.0 s, 22742.6 tps, lat 11.250 ms stddev 17.184, 0 failed
+progress: 960.0 s, 15431.5 tps, lat 16.589 ms stddev 21.738, 0 failed
+transaction type: /var/run/pgbench-wal-stress.pgbench
+scaling factor: 1040
+query mode: simple
+number of clients: 256
+number of threads: 256
+maximum number of tries: 1
+duration: 960 s
+number of transactions actually processed: 17568366
+number of failed transactions: 0 (0.000%)
+latency average = 13.986 ms
+latency stddev = 19.749 ms
+initial connection time = 263.097 ms
+tps = 18289.380207 (without initial connection time)

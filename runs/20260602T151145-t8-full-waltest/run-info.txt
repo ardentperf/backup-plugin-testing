@@ -1,0 +1,12 @@
+run_mode: t8-full
+started: 2026-06-02T15:11:47Z
+cluster: cnpg4wal
+region: us-west-2
+node_vcpus: 128
+instance_type: c6id.32xlarge
+db_size_gb: 16
+pgbench_clients: 256
+pgbench_jobs: 256
+pgbench_duration_s: 960
+wal_thread_counts: 1 8 32
+buckets: barman=cnpg4wal-barman opera=cnpg4wal-opera dalibo=cnpg4wal-dalibo
